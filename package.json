@@ -16,7 +16,7 @@
     "commands": [
       {
         "command": "letcodego.undebug",
-        "title": "undebug"
+        "title": "letcodego:undebug"
       }
     ],
     "keybindings": [
