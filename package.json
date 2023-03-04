@@ -1,8 +1,14 @@
 {
   "name": "letcodego",
+  "publisher": "FaneverRay",
   "displayName": "LetCodeGo",
+  "icon": "icons/letcodego.png",
   "description": "Quickly remove debugger flags.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperRay3/letcodego"
+  },
   "engines": {
     "vscode": "^1.76.0"
   },
