@@ -10,3 +10,6 @@ windows: `ctrl + shift + l`
 
 mac: `cmd + shift + l`
 
+## Demo
+
+![demo](./assets/letcodego.gif)
