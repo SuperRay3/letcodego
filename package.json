@@ -10,14 +10,21 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:letcodego.helloWorld"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "letcodego.helloWorld",
-        "title": "Hello World"
+        "command": "letcodego.undebug",
+        "title": "undebug"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "letcodego.undebug",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
+        "when": "editorTextFocus"
       }
     ]
   },
